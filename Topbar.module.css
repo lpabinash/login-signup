@@ -1,0 +1,29 @@
+.main {
+    height: 100px;
+    background-color: #567086;
+    display: flex;
+    align-items: center;
+}
+
+.menuWrapper {
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22.5px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.menu:hover {
+    color: orange;
+}
+.menu h5 {
+    margin: 10px 10px 0px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
